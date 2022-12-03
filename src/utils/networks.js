@@ -1,5 +1,5 @@
 
-const network = {
+const networks = {
     "0x1": "Mainnet",
     "0x3": "Ropsten",
     "0x2a": "Kovan",
@@ -12,4 +12,4 @@ const network = {
     "0xa86a": "AVAX Mainnet",
 }
 
-export { network };
+export { networks };
