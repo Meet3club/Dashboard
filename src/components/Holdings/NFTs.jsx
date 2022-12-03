@@ -43,7 +43,7 @@ const NFTs = (props) => {
                             return (
                                 <div className="p-4 lg:w-1/4 md:w-1/2">
                                     <div className="h-full flex flex-col items-center text-center">
-                                        <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" key={currlem.token_id} src={currlem.file_url} />
+                                        <img alt="team" className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" key={currlem.token_id} src={currlem.file_url} />
                                         <div className="w-full">
                                             <h2 className="title-font font-medium text-lg text-gray-900" key={currlem.token_id}>{currlem.name}</h2>
                                         </div>

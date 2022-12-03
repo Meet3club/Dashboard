@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 // Icons
 import { RiSearch2Line } from "react-icons/ri";
-import {network} from ".././utils/network"
+import {networks} from "../utils/networks"
 
 
 /*
