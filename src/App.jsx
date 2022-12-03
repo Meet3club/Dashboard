@@ -14,7 +14,6 @@ import MeetingPage from './pages/MeetingPage';
 function App() {
 return (
 	<Router>
-	<Navbar />
 	<Routes>
 		<Route exact path='/' element={<DashboardPage />} />
 		<Route path='/meeting' element={<MeetingPage />} />

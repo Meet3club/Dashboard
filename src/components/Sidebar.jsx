@@ -36,23 +36,13 @@ const Sidebar = () => {
               <RiHome3Line /> Home
             </a>
             <a
-              href="#"
+              href="/meeting"
               className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
             >
-              <RiFileCopyLine /> Projects
+              <RiFileCopyLine /> Meeting
             </a>
-            <a
-              href="#"
-              className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
-            >
-              <RiWalletLine /> Invoices
-            </a>
-            <a
-              href="#"
-              className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
-            >
-              <RiPieChartLine /> Reports
-            </a>
+           
+           
           </nav>
           <div className="bg-primary-900/50 text-white p-4 rounded-xl">
             <p className="text-gray-400">Having troubles?</p>
