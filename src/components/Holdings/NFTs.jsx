@@ -39,7 +39,7 @@ const NFTs = (props) => {
                 {uri}
                 <div className="flex flex-wrap -m-4">
                     {users.map((currlem) => {
-                        if (currlem.file_url != "") {
+                        if (currlem.file_url != null) {
                             return (
                                 <div className="p-4 lg:w-1/4 md:w-1/2">
                                     <div className="h-full flex flex-col items-center text-center">
