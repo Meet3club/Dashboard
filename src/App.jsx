@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route}
 	from 'react-router-dom';
-import Dashboard from './pages/DashboardPage';
+import DashboardPage from './pages/DashboardPage';
 import MeetingPage from './pages/MeetingPage';
 // import Meeting from './components/Meeting';
 // import About from './pages/about';
@@ -16,7 +16,7 @@ return (
 	<Router>
 	<Navbar />
 	<Routes>
-		<Route exact path='/' exact element={<Dashboard />} />
+		<Route exact path='/' element={<DashboardPage />} />
 		<Route path='/meeting' element={<MeetingPage />} />
 	</Routes>
 	</Router>

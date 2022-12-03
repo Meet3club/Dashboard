@@ -10,7 +10,6 @@ function DashboardPage() {
             <Sidebar />
             <main className="lg:col-span-3 xl:col-span-5 bg-gradient-to-r via-purple-500 from-blue-500 to-purple-700 p-8 h-[100vh] overflow-y-scroll">
                 <Header />
-
                 <Dashboard />
             </main>
         </div>
