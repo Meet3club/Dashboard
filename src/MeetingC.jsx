@@ -234,6 +234,7 @@ function MeetingC() {
           console.log("Current data: ", doc.data());
           if(doc.data().status==true){
             setStatus(true)
+            
           }
         });
         
@@ -242,8 +243,8 @@ function MeetingC() {
 
   const handleJoin = async () => {
     try {
-      await huddleClient.join("dev", {
-        address: "0x15900c698ee356E6976e5645394F027F0704c8Eb",
+      await huddleClient.join(roomID, {
+        address: currentAccount,
         wallet: "",
         ens: "axit.eth",
       });
