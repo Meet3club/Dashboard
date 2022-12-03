@@ -7,7 +7,7 @@ import { RiSearch2Line, RiLineChartLine, RiHashtag } from "react-icons/ri";
 const Dashboard = () => {
     return (
 
-        <main className="lg:col-span-3 xl:col-span-5 bg-gray-100 p-8 h-[100vh] overflow-y-scroll">
+        <main>
             {/* Section 1 */}
             <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mt-10 gap-8">
                 {/* Card 1 */}
