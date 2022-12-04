@@ -11,7 +11,6 @@ const Meeting = () => {
             </h1>
             <MeetingC/>
             <Tabs />
-           
         </div>
     );
 };
