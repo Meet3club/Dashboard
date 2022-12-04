@@ -155,14 +155,14 @@ function MeetingC() {
             </div>
           </div>
           <div className="">
-            {/* <button onClick={handleJoin}>Join Room</button>
+            <button onClick={handleJoin}>Join Room</button>
             <button onClick={() => huddleClient.enableWebcam()}>
               Enable Webcam
             </button>
             <button onClick={() => huddleClient.disableWebcam()}>
               Disable Webcam
             </button>
-            <button onClick={() => huddleClient.allowAllLobbyPeersToJoinRoom()}>
+            {/* <button onClick={() => huddleClient.allowAllLobbyPeersToJoinRoom()}>
               allowAllLobbyPeersToJoinRoom()
             </button> */}
             <button onClick={() => setStatus(false) }>
@@ -219,9 +219,9 @@ function MeetingC() {
       });
 
       setStatus(true)
-      huddleClient.enableWebcam()
-      handleJoin()
-      huddleClient.allowAllLobbyPeersToJoinRoom()
+      // huddleClient.enableWebcam()
+      // handleJoin()
+      // huddleClient.allowAllLobbyPeersToJoinRoom()
       console.log("joined" + roomID)
     }
     else {
@@ -241,21 +241,16 @@ function MeetingC() {
         console.log("Current data: ", doc.data());
         setMessage("waiting for participant to join")
         if (doc.data().status == true) {
-          setStatus(true)
           setMessage("")
-          huddleClient.enableWebcam()
-          handleJoin()
-          huddleClient.allowAllLobbyPeersToJoinRoom()
+          setStatus(true)
+          // huddleClient.enableWebcam()
+          // handleJoin()
+          // huddleClient.allowAllLobbyPeersToJoinRoom()
         }
       });
 
     }
   }
-
-  // const Exit = () => {
-  //   setStatus(false);
-  //   setMessage(false);
-  // };
 
   const handleJoin = async () => {
     try {
