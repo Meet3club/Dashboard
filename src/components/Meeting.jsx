@@ -10,7 +10,7 @@ const Meeting = () => {
                 Start the meeting !
             </h1>
             <MeetingC/>
-            {/* <Tabs /> */}
+            <Tabs />
         </div>
     );
 };
