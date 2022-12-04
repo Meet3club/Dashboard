@@ -7,6 +7,7 @@ import {
   RiPieChartLine,
   RiMore2Fill,
   RiCloseFill,
+  RiWallet3Fill
 } from "react-icons/ri";
 import logo1 from "../assets/meet3club.png"
 
@@ -42,6 +43,12 @@ const Sidebar = () => {
               <RiFileCopyLine /> Meeting
             </a>
 
+            <a
+              href="/profile"
+              className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
+            >
+              <RiWallet3Fill /> Profile
+            </a>
 
           </nav>
 

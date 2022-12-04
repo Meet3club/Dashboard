@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route}
 	from 'react-router-dom';
 import DashboardPage from './pages/DashboardPage';
 import MeetingPage from './pages/MeetingPage';
+import ProfilePage from './pages/ProfilePage';
 // import Meeting from './components/Meeting';
 // import About from './pages/about';
 // import Blogs from './pages/blogs';
@@ -17,6 +18,7 @@ return (
 	<Routes>
 		<Route exact path='/' element={<DashboardPage />} />
 		<Route path='/meeting' element={<MeetingPage />} />
+		<Route path='/profile' element={<ProfilePage />} />
 	</Routes>
 	</Router>
 );

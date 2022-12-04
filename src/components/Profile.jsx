@@ -9,7 +9,7 @@ const Meeting = () => {
             <h1 className="text-2xl md:text-3xl font-bold align-middle pt-9">
                 Start the meeting !
             </h1>
-            <MeetingC/>
+            <Tabs />
         </div>
     );
 };
